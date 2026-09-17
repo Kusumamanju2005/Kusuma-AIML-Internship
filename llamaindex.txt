@@ -1,0 +1,3 @@
+LlamaIndex is a framework for building applications using large language models.
+It helps developers connect language models with external data.
+LlamaIndex can index documents and provide query engines for retrieving relevant information.

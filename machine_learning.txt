@@ -1,0 +1,3 @@
+Machine learning is a branch of artificial intelligence.
+It allows computers to learn patterns from data and make predictions.
+Common machine learning tasks include classification and regression.
