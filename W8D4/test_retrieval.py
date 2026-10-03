@@ -7,7 +7,7 @@ from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.retrievers.in_memory import InMemoryBM25Retriever
 
 
-PDF_FOLDER = Path("../W8D3/pdfs")
+PDF_FOLDER = PDF_FOLDER = Path("W8D3/pdfs")
 
 
 def build_document_store():
