@@ -1,0 +1,11 @@
+Artificial Intelligence (AI) is a field of computer science focused on creating systems that can perform tasks that normally require human intelligence.
+
+Machine Learning (ML) is a subset of AI that allows computers to learn patterns from data and make predictions or decisions.
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. A RAG system retrieves relevant information from a knowledge base and provides it as context to a language model.
+
+Large Language Models (LLMs) are machine learning models trained on large amounts of text. They can perform tasks such as question answering, summarization, and text generation.
+
+Vector embeddings represent text as numerical vectors. Similar pieces of text can have similar vector representations, which makes embeddings useful for semantic search and retrieval.
+
+AI research assistants can combine document retrieval, language models, and structured prompts to help users summarize and explore technical information.
