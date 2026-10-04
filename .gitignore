@@ -1,3 +1,11 @@
+# MLflow database
+mlflow.db
+mlflow.db-journal
+# MLflow tracking data
+mlruns/
+
+# W9D5 virtual environment
+W9D5_AutomatedResearchAgent/.venv/
 # Virtual environments
 .venv/
 **/.venv/
