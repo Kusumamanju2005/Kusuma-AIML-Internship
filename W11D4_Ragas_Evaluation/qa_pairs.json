@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is Python?",
+    "ground_truth": "Python is a high-level programming language known for its simple syntax and readability. It is widely used for web development, automation, data science, and artificial intelligence."
+  },
+  {
+    "question": "What is machine learning?",
+    "ground_truth": "Machine learning is a branch of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task."
+  },
+  {
+    "question": "What is supervised learning?",
+    "ground_truth": "Supervised learning is a machine learning approach where a model learns from labeled training data. Common supervised learning tasks include classification and regression."
+  },
+  {
+    "question": "What is a random forest?",
+    "ground_truth": "A random forest is an ensemble machine learning algorithm that combines multiple decision trees. It can be used for both classification and regression tasks."
+  },
+  {
+    "question": "What is a REST API?",
+    "ground_truth": "A REST API allows applications to communicate over HTTP using resources and standard methods such as GET, POST, PUT, and DELETE."
+  },
+  {
+    "question": "What is RAG?",
+    "ground_truth": "Retrieval-Augmented Generation, or RAG, combines information retrieval with text generation. A RAG system retrieves relevant information from a knowledge base and uses it to generate an answer."
+  },
+  {
+    "question": "What is ChromaDB?",
+    "ground_truth": "ChromaDB is a vector database commonly used to store and retrieve embeddings. It can support semantic search for retrieval-augmented generation applications."
+  },
+  {
+    "question": "What does faithfulness measure in Ragas?",
+    "ground_truth": "Faithfulness measures whether the claims in a generated answer are supported by the retrieved context. Higher faithfulness means fewer unsupported claims."
+  },
+  {
+    "question": "What is context recall?",
+    "ground_truth": "Context recall measures whether the retrieved context contains the information required to answer the question. Higher recall means fewer relevant pieces of information are missed."
+  },
+  {
+    "question": "What is the top-k parameter in retrieval?",
+    "ground_truth": "The top-k retrieval parameter controls how many of the most relevant documents or chunks are returned for a query."
+  }
+]

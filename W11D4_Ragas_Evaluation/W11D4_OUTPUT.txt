@@ -1,0 +1,62 @@
+W11D4: RAG Evaluation with Ragas — Metrics & Benchmarks
+========================================================
+
+Dataset:
+- rag_dataset.txt
+- 20 knowledge paragraphs
+- 10 Q&A pairs evaluated
+
+RAG Pipeline:
+- LangChain
+- ChromaDB
+- HuggingFace all-MiniLM-L6-v2 embeddings
+- RecursiveCharacterTextSplitter
+
+BASELINE CONFIGURATION
+----------------------
+Chunk size: 300
+Chunk overlap: 50
+Top-k: 3
+Evaluator: Ollama llama3.2:1b
+
+BASELINE RESULTS
+----------------
+Faithfulness: NaN
+Answer relevancy: 0.4805
+Context precision: 1.0000
+Context recall: 1.0000
+
+OPTIMISED CONFIGURATION
+-----------------------
+Chunk size: 200
+Chunk overlap: 40
+Top-k: 2
+Evaluator: Ollama llama3.2:1b
+
+OPTIMISED RESULTS
+-----------------
+Faithfulness: NaN
+Answer relevancy: 0.4805
+Context precision: NaN
+Context recall: 0.9000
+
+OPTIMISATION ANALYSIS
+---------------------
+The lowest valid baseline metric was answer relevancy at 0.4805.
+The retrieval configuration was changed from chunk size 300 and top-k 3
+to chunk size 200 and top-k 2.
+
+The optimisation experiment completed successfully, but answer relevancy
+remained at 0.4805. Context recall decreased from 1.0000 to 0.9000.
+Therefore, the tested optimisation did not improve the evaluation scores.
+
+Faithfulness returned NaN in both evaluations, and context precision
+returned NaN in the optimised evaluation. These values were recorded
+as returned by Ragas and were not fabricated or replaced.
+
+CONCLUSION
+----------
+The RAG pipeline, 10-question benchmark, Ragas evaluation, and
+retrieval optimisation experiment were completed successfully.
+The results demonstrate how chunk size and top-k can affect retrieval
+quality.

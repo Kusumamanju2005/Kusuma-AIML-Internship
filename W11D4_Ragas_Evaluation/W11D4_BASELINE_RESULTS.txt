@@ -1,0 +1,10 @@
+W11D4 RAGAS BASELINE RESULTS
+============================
+Questions evaluated: 10
+Chunk size: 300
+Chunk overlap: 50
+Top-k: 3
+Evaluator: Ollama llama3.2:1b
+Embeddings: HuggingFace all-MiniLM-L6-v2
+
+{'faithfulness': nan, 'answer_relevancy': 0.4805, 'context_precision': 1.0000, 'context_recall': 1.0000}
