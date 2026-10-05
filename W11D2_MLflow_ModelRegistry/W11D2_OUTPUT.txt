@@ -1,0 +1,41 @@
+W11D2 MLflow Model Registry & Versioning - Output Evidence
+
+Experiment:
+W11D2_Model_Registry_Experiments
+
+Model:
+RandomForestClassifier
+
+Dataset:
+Iris Dataset
+
+Number of Experiments:
+5
+
+Hyperparameters Tested:
+1. n_estimators=50, max_depth=3
+2. n_estimators=50, max_depth=5
+3. n_estimators=100, max_depth=3
+4. n_estimators=100, max_depth=5
+5. n_estimators=150, max_depth=7
+
+Best Accuracy:
+0.9667
+
+Best Run ID:
+1baa7eeaeb534fd5bc0377f4f9cc1e7a
+
+MLflow Model Registry:
+Model Name: W11D2_RandomForest_Model
+Model Version: 2
+
+Model Loading:
+Registered model version 2 loaded successfully.
+
+Prediction Test:
+Input: [[5.1, 3.5, 1.4, 0.2]]
+Prediction: [0]
+
+Status:
+MLflow experiment tracking, model registration, versioning,
+model loading, and prediction testing completed successfully.

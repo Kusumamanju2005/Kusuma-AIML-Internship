@@ -1,0 +1,46 @@
+W11D1 MLflow Experiment Tracking - Output Evidence
+
+Experiment:
+W11D1_RandomForest_Experiments
+
+Model:
+RandomForestClassifier
+
+Dataset:
+Iris Dataset
+
+Number of Experiments:
+5
+
+Hyperparameters Tested:
+1. n_estimators=50, max_depth=3
+2. n_estimators=50, max_depth=5
+3. n_estimators=100, max_depth=3
+4. n_estimators=100, max_depth=5
+5. n_estimators=150, max_depth=7
+
+Best Accuracy:
+0.9667
+
+Best Run ID:
+089baea8c425470ab9b1c0373a840803
+
+MLflow Model Registry:
+Model Name: W11D1_RandomForest_Best_Model
+Model Version: 1
+
+Model Loading:
+Registered model loaded successfully.
+
+Prediction Test:
+Input: [[5.1, 3.5, 1.4, 0.2]]
+Prediction: [0]
+
+MLflow UI:
+5 experiment runs were successfully displayed and compared in the MLflow UI.
+
+Serving:
+MLflow model serving was attempted. Local serving required additional pyenv/environment configuration.
+
+Status:
+Experiment tracking, model registration, model loading, and prediction testing completed successfully.

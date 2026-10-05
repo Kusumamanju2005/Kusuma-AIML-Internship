@@ -1,0 +1,53 @@
+W11D3: MLflow Model Serving & REST API
+
+Experiment:
+W11D3_MLflow_Model_Serving
+
+Dataset:
+Iris Dataset
+
+Model:
+RandomForestClassifier
+
+Experiments:
+5 different hyperparameter combinations were tested.
+
+Best Model:
+RandomForestClassifier
+
+Best Accuracy:
+0.9667
+
+Best Run ID:
+bbf28ee0f019421e84fc7ecf267bac66
+
+Registered Model:
+W11D3_RandomForest_Model
+
+Model Version:
+1
+
+Model Loading:
+Successfully loaded the registered MLflow model.
+
+Prediction Test:
+Input:
+[[5.1, 3.5, 1.4, 0.2]]
+
+Prediction:
+[0]
+
+Model Serving:
+MLflow model server started successfully.
+
+REST API:
+http://127.0.0.1:5001/invocations
+
+Server:
+Uvicorn running successfully on port 5001.
+
+Port Verification:
+TcpTestSucceeded: True
+
+Status:
+W11D3 implementation completed successfully.

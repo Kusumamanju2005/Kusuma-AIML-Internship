@@ -1,0 +1,39 @@
+Python is a high-level programming language known for its simple syntax and readability. It is widely used for web development, automation, data science, and artificial intelligence.
+
+Machine learning is a branch of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task.
+
+Supervised learning is a machine learning approach where a model learns from labeled training data. Common supervised learning tasks include classification and regression.
+
+Unsupervised learning works with unlabeled data. The model attempts to discover hidden patterns or structures, such as clusters, without predefined target labels.
+
+A random forest is an ensemble machine learning algorithm that combines multiple decision trees. It can be used for both classification and regression tasks.
+
+A REST API allows applications to communicate over HTTP using resources and standard methods such as GET, POST, PUT, and DELETE.
+
+Authentication verifies the identity of a user or system. Authorization determines what an authenticated user or system is allowed to access.
+
+Retrieval-Augmented Generation, or RAG, combines information retrieval with text generation. A RAG system retrieves relevant information from a knowledge base and uses it to generate an answer.
+
+ChromaDB is a vector database commonly used to store and retrieve embeddings. It can support semantic search for retrieval-augmented generation applications.
+
+Ragas is a framework for evaluating RAG applications. It provides metrics such as faithfulness, answer relevancy, context precision, and context recall.
+
+Faithfulness measures whether the claims in a generated answer are supported by the retrieved context. Higher faithfulness means fewer unsupported claims.
+
+Context precision measures how relevant the retrieved context is to the question. Higher precision means less irrelevant information is retrieved.
+
+Context recall measures whether the retrieved context contains the information required to answer the question. Higher recall means fewer relevant pieces of information are missed.
+
+Answer relevancy measures how relevant the generated answer is to the user's question. An answer can be factually correct but still have low relevancy if it does not directly address the question.
+
+Chunking divides a large document into smaller pieces before storing it in a vector database. Chunk size can affect retrieval quality.
+
+The top-k retrieval parameter controls how many of the most relevant documents or chunks are returned for a query.
+
+Embeddings are numerical vector representations of text. Similar meanings generally produce vectors that are close to each other in embedding space.
+
+A vector database stores vector representations and supports similarity-based search. It is useful for retrieving semantically related information.
+
+A typical RAG pipeline loads documents, splits them into chunks, creates embeddings, stores the embeddings in a vector database, retrieves relevant chunks, and generates an answer using the retrieved context.
+
+RAG evaluation checks the quality of retrieval and generated answers. Metrics such as faithfulness, answer relevancy, context precision, and context recall help identify weaknesses in a RAG system.
