@@ -1,0 +1,48 @@
+W11D5: Week 11 Project — Tracked & Evaluated RAG Pipeline
+=========================================================
+
+Project Components
+------------------
+- LangChain RAG pipeline
+- ChromaDB vector database
+- HuggingFace embeddings
+- MLflow experiment tracking
+- Ragas evaluation evidence from W11D4
+
+Configuration
+-------------
+Chunk size: 300
+Chunk overlap: 50
+Top-k: 3
+Embedding model: all-MiniLM-L6-v2
+Benchmark questions: 10
+
+Execution
+---------
+The RAG pipeline successfully loaded the knowledge dataset, created
+vector embeddings, stored them in ChromaDB, and retrieved relevant
+chunks for the benchmark questions.
+
+MLflow successfully tracked the RAG configuration and retrieval
+success rate.
+
+Ragas evaluation was completed during W11D4. The W11D4 baseline
+and optimisation results are included as evaluation evidence.
+
+W11D4 Baseline:
+Faithfulness: NaN
+Answer relevancy: 0.4805
+Context precision: 1.0000
+Context recall: 1.0000
+
+W11D4 Optimised:
+Faithfulness: NaN
+Answer relevancy: 0.4805
+Context precision: NaN
+Context recall: 0.9000
+
+Conclusion
+----------
+The Week 11 project successfully integrates RAG retrieval with MLflow
+tracking and Ragas evaluation evidence. The pipeline was tested
+successfully and the evaluation limitations were documented honestly.

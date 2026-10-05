@@ -1,0 +1,16 @@
+W11D5 RAGAS EVALUATION REFERENCE
+================================
+
+Ragas evaluation was completed in W11D4.
+
+Baseline:
+Faithfulness: NaN
+Answer relevancy: 0.4805
+Context precision: 1.0000
+Context recall: 1.0000
+
+Optimised:
+Faithfulness: NaN
+Answer relevancy: 0.4805
+Context precision: NaN
+Context recall: 0.9000
