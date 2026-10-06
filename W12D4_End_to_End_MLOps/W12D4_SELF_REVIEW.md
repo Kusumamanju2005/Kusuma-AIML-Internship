@@ -8,21 +8,19 @@
 
 \- \[x] ML API prepared
 
-\- \[x] Dependencies documented
-
 \- \[x] Docker containerization completed
-
-\- \[x] CI/CD workflow configured
 
 \- \[x] Docker image build configured
 
+\- \[x] GitHub Actions CI/CD workflow configured
+
 \- \[x] Docker Hub publishing configured
 
-\- \[x] Production monitoring documented
+\- \[x] Monitoring strategy documented
 
 \- \[x] Retraining triggers documented
 
-\- \[x] End-to-end workflow documented
+\- \[x] Execution evidence completed
 
 
 
@@ -32,7 +30,9 @@
 
 Docker was used to provide a consistent runtime environment, while
 
-GitHub Actions automates validation and image publishing.
+GitHub Actions automates validation, Docker image building, and
+
+publishing.
 
 
 
@@ -52,7 +52,7 @@ testing, containerization, and publishing into CI/CD steps.
 
 
 
-I would add automated integration tests, deployment to a cloud
+I would add automated integration tests, cloud deployment,
 
-platform, Prometheus/Grafana monitoring, and automated retraining.
+Prometheus/Grafana monitoring, and automated model retraining.
 
